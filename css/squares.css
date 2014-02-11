@@ -22,10 +22,6 @@ html, body, .fullheight {
 	float: left;
 }
 
-.clear {
-	clear: both;
-}
-
 .padded {
 	padding: 2px;
 }
