@@ -2,8 +2,8 @@ squares
 =======
 
 ## Requirements
-1. [Vagrant](www.vagrantup.com)
-2. [VirtualBox](www.virtualbox.org)
+1. [Vagrant](http://www.vagrantup.com)
+2. [VirtualBox](http://www.virtualbox.org)
 
 ## Steps
 1. vagrant plugin install vagrant-vbguest
