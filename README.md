@@ -11,4 +11,4 @@ squares
 3. cd /opt/squares && meteor
 
 Application URL:
-http://localhost:3000
+<http://localhost:3000>
