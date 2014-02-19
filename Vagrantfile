@@ -23,6 +23,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision "shell", inline: "apt-get install -yq curl"
   config.vm.provision "shell", inline: "curl https://install.meteor.com/ | sh"
+  config.vm.provision "shell", inline: "mkdir -p /opt && cd /opt && meteor create squares"
+  config.vm.provision "shell", inline: "rm -f /opt/squares/squares.*"
+  config.vm.provision "shell", inline: "ln -s /vagrant/index.html /opt/squares/index.html"
+  config.vm.provision "shell", inline: "ln -s /vagrant/js /opt/squares/js"
+  config.vm.provision "shell", inline: "ln -s /vagrant/css /opt/squares/css"
+  config.vm.provision "shell", inline: "chown -R vagrant:vagrant /opt/squares"
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
