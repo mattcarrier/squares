@@ -2,6 +2,24 @@ html, body, .fullheight {
 	height: 100%;
 }
 
+.fullwidth {
+	width: 100%;
+}
+
+#header {
+	background-color: LightSkyBlue;
+	height: 30px;
+	border-color: black;
+	border-bottom: 5px;
+}
+
+.centered {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .height-11 {
 	height: 9.09090909091%;
 }
@@ -34,4 +52,24 @@ html, body, .fullheight {
 .bbox {
 	background-color: LightSlateGray;
 	border-radius: 5px;
+}
+
+.tar {
+	text-align: right;
+}
+
+.tac {
+	text-align: center;
+}
+
+.vac {
+	vertical-align: middle;
+}
+
+#main {
+	padding: 5% 20%;
+}
+
+div, p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
